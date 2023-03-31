@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color: rgba(160, 197, 253, 0.842);
+    font-family: 'Karla', sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+/*Imagens da forca*/
+#imagem{
+    background-image: url("../img/forca1.png");
+    width: 250px;
+    height: 208px;
+    background-repeat: no-repeat;
+}
+
+
+/*Palavra que tem que ser adivinhada*/
+#secreta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    margin-top: 30px;
+}
+
+
+.letras{
+    width: 16px;
+    text-align: center;
+    border-bottom: 3px solid rgb(28, 3, 139);
+    color: #8b4b20;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.letrasEspaco{
+    width: 16px;
+    text-align: center;
+    color: #8b4b20;
+    padding: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+#teclado{
+    margin-top: 30px;
+
+}
+
+.teclas button{
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    margin-bottom: 5px;
+    cursor: pointer; 
+    box-shadow: 0px 2px 8px rgba(25, 60, 218, 0.925);
+    border-radius: 5px;
+    border: 1px solid #8b4b20;
+    color: rgb(36, 36, 214);
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+
+}
+
+/*Simbolo de 'block' para letra repetida*/
+.teclas button:disabled{
+    cursor: not-allowed;
+}
+
+.teclas button:hover{
+    transform: scale(1.2); /*Dar zoom na letra*/
+}
+
+#categorias{
+    margin-top: 30px;
+    color: #613111;
+    font-size: 1.2em;
+}
+
+
+/*Responsividade*/
+
+@media (min-width: 321px){
+    .teclas button{
+        width: 25px;
+        height: 25px;
+    }
+    #categorias{
+        font-size: 1.3em;
+    }
+}
+
+@media (min-width: 376px){
+    .teclas button{
+        width: 30px;
+        height: 30px;
+    }
+    .letras{
+        width: 18px;
+    }
+
+    #secreta{
+        font-size: 1.3em;
+    }
+    #categorias{
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 426px){
+    .teclas button{
+        width: 36px;
+        height: 36px;
+    }
+    .letras{
+        width: 20px;
+    }
+    #secreta{
+        font-size: 1.5em;
+    }
+    #categorias{
+        font-size: 1.7em;
+    }
+}
+
+@media (min-width: 769px){
+    .teclas button{
+        width: 65px;
+        height: 65px;
+        font-size: 2em;
+    }
+    .letras{
+        width: 35px;
+    }
+    #secreta{
+        font-size: 2.3em;
+    }
+    #categorias{
+        font-size: 2em;
+    }
+}
