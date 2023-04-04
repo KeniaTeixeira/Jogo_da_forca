@@ -42,7 +42,7 @@ const palavras = [
         categoria : "LUGARES"
     },
     palavra010={
-        nome : "CHEGUENHUEM",
+        nome : "NIGERIA",
         categoria : "LUGARES"
     },
     palavra011={
@@ -73,9 +73,9 @@ const palavras = [
         nome : "ORANGOTANGO",
         categoria : "ANIMAIS"
     },
-    palavra018={
-        nome : "XEXEU",
-        categoria : "ANIMAIS"
+    palavra018 = {
+    nome: "TAMANDUA",
+    categoria: "ANIMAIS"
     },
     palavra019={
         nome : "PERCEVEJO",
@@ -117,9 +117,9 @@ const palavras = [
         nome : "WEBCAM",
         categoria : "OBJETO"
     },
-    palavra029={
-        nome : "XILOFONE",
-        categoria : "OBJETO"
+   palavra029 = {
+    nome: "AMPULHETA",
+    categoria: "OBJETO"
     },
     palavra030={
         nome : "OXIMETRO",
@@ -133,17 +133,17 @@ const palavras = [
         nome : "CERIMONIALISTA",
         categoria : "PROFISSÕES"
     },
-    palavra033={
-        nome : "ENDOCRINOLOGISTA",
-        categoria : "PROFISSÕES"
+    palavra033 = {
+    nome: "PROGRAMADOR",
+    categoria: "PROFISSÕES"
     },
     palavra034={
         nome : "INTERPRETE",
         categoria : "PROFISSÕES"
     },
-    palavra035={
-        nome : "ROTEIRIZADOR",
-        categoria : "PROFISSÕES"
+    palavra035 = {
+    nome: "CARPINTEIRO",
+    categoria: "PROFISSÕES"
     },
     palavra036={
         nome : "TURISMOLOGO",
@@ -177,24 +177,24 @@ const palavras = [
         nome : "QUARTZO",
         categoria : "ALEATORIO"
     },
-    palavra044={
-        nome : "VERTIGINOSO",
-        categoria : "ALEATORIO"
+   palavra044 = {
+    nome: "TECLADO",
+    categoria: "ALEATORIO"
     },
-    palavra045={
-        nome : "XILOFONE",
-        categoria : "ALEATORIO"
+      palavra045 = {
+    nome: "BUMERANGUE",
+    categoria: "ALEATORIO"
     },
     palavra046={
         nome : "AGNOSTICO",
         categoria : "ALEATORIO"
     },
-    palavra047={
-        nome : "HETERONIMIA",
+    palavra047 = {
+    nome: "BISTURI",
         categoria : "ALEATORIO"
     },
     palavra048={
-        nome : "EPIFANIA",
+      nome: "PLENITUDE",
         categoria : "ALEATORIO"
     },
     palavra049={
@@ -222,8 +222,8 @@ const palavras = [
         categoria : "FLORES"
     },
     palavra055={
-        nome : "RABO DE GATO",
-        categoria : "FLORES"
+          nome: "AMARILIS",
+    categoria: "FLORES"
     },
     palavra056={
         nome : "ROSA DO DESERTO",
@@ -234,12 +234,12 @@ const palavras = [
         categoria : "FLORES"
     },
     palavra058={
-        nome : "LANTERNAS CHINESAS",
-        categoria : "FLORES"
+        nome: "BOTÃO DE OURO",
+    categoria: "FLORES"
     },
     palavra059={
-        nome : "BEIJO PINTADO",
-        categoria : "FLORES"
+     nome: "COPO DE LEITE",
+    categoria: "FLORES"
     },
     palavra060={
         nome : "BROMELIA",
@@ -253,25 +253,25 @@ const palavras = [
         nome : "OS SUSPEITOS",
         categoria : "FILMES"
     },
-    palavra063={
-        nome : "PRINCESA MONONOKE",
-        categoria : "FILMES"
+  palavra063 = {
+    nome: "GUARDIOES DA GALAXIA",
+    categoria: "FILMES"
     },
     palavra064={
         nome : "CIDADAO KANE",
         categoria : "FILMES"
     },
-    palavra065={
-        nome : "LARANJA MECANICA",
-        categoria : "FILMES"
+   palavra065 = {
+    nome: "ALERTA MAXIMO",
+    categoria: "FILMES"
     },
     palavra066={
         nome : "PACTO DE SANGUE",
         categoria : "FILMES"
     },
-    palavra067={
-        nome : "RASHOMON",
-        categoria : "FILMES"
+  palavra067 = {
+    nome: "O AVIADOR",
+    categoria: "FILMES"
     },
     palavra068={
         nome : "O LABIRINTO DE FAUNO",
